@@ -1,0 +1,45 @@
+# ---------- Secrets (NEVER commit) ----------
+secrets.h
+**/secrets.h
+*.secret
+.env
+*.pem
+*.key
+
+# ---------- Arduino / ESP32 build output ----------
+build/
+**/build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+*.d
+*.lst
+*.eep
+
+# ---------- Arduino IDE / CLI caches ----------
+.arduino15/
+.arduino/
+.vscode/
+.vs/
+
+# ---------- PlatformIO (if you switch later) ----------
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ---------- Serial logs ----------
+*.log
+
+# ---------- Editors ----------
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- OS junk ----------
+.DS_Store
+Thumbs.db
+desktop.ini
